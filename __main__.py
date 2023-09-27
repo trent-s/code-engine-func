@@ -41,9 +41,10 @@ def main():
     html = template.render(username = name, cur_time = cur_time, random_numbers = random_numbers)
     return {
     	      "headers": { 'Content-Type': 'text/html;charset=utf-8' },
-    	      "body": html
+    	      "body": "<html><body>Hello World!</body></html>"
 	}
 
 # ibmcloud ce fn create -n dhtml -runtime python-3.11 --build-source .
 # ibmcloud ce fn create -n dhtml -runtime python-3.11 --build-source https://github.com/trent-s/code-engine-func
+# ibmcloud ce fn create -n dhtml -runtime python-3.11 --build-source https://github.com/trent-s/code-engine-func --cb us.icr.io/codeengine-crns/dhtml:latest --cs ibm-container-registry
 
