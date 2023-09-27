@@ -41,6 +41,7 @@ def main(params):
     html = template.render(username = name, cur_time = cur_time, random_numbers = random_numbers)
     return {
     	      "headers": { 'Content-Type': 'text/html;charset=utf-8' },
+              "statusCode": 200,
     	      "body": html
 	}
 
