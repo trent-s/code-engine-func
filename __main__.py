@@ -41,7 +41,7 @@ def main():
     html = template.render(username = name, cur_time = cur_time, random_numbers = random_numbers)
     return {
     	      "headers": { 'Content-Type': 'text/html;charset=utf-8' },
-    	      "body": "<html><body>Hello World!</body></html>"
+    	      "body": html
 	}
 
 # ibmcloud ce fn create -n dhtml -runtime python-3.11 --build-source .
