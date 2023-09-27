@@ -47,4 +47,6 @@ def main():
 # ibmcloud ce fn create -n dhtml -runtime python-3.11 --build-source .
 # ibmcloud ce fn create -n dhtml -runtime python-3.11 --build-source https://github.com/trent-s/code-engine-func
 # ibmcloud ce fn create -n dhtml -runtime python-3.11 --build-source https://github.com/trent-s/code-engine-func --cb us.icr.io/codeengine-crns/dhtml:latest --cs ibm-container-registry
+#  ibmcloud ce fn delete -n dhtml
+# or ibmcloud ce fn update ......
 
