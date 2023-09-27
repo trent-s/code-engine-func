@@ -1,2 +1,2 @@
 # code-engine-func
-just an experiment. kicking the tires.
+just trying out IBM Cloud Engine Functions...
