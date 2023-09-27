@@ -45,4 +45,5 @@ def main():
 	}
 
 # ibmcloud ce fn create -n dhtml -runtime python-3.11 --build-source .
+# ibmcloud ce fn create -n dhtml -runtime python-3.11 --build-source https://github.com/trent-s/code-engine-func
 
